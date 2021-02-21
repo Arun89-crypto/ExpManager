@@ -11,7 +11,7 @@ Expense manager is a javaScript application which is helpful for managing your E
 ## Images
 
 ![Screenshot1](./images/ScreenShots/Screenshot1.png)
-![Screenshot2](./images/ScreenShots/Screenshot2.png)
+![Screenshot4](./images/ScreenShots/Screenshot4.png)
 ![Screenshot3](./images/ScreenShots/Screenshot3.png)
 
 ## Weblink
