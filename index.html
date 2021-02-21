@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/resp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="navbar navbar-resp">
+        <img src="./images/wallet-filled-money-tool.png" alt="" id="main-img">
+        <ul class="nav-items nav-items-resp">
+            <li class="items-nav"><a href="#top">Home</a> </li>
+            <li class="items-nav"><a href="#container">Dashboard</a></li>
+            <li class="items-nav"><a href="#about">About</a></li>
+        </ul>
+        <div class="burger burger-resp">
+            <img src="./images/iconfinder___Menu_1904665.png" alt="" id="burger">
+        </div>
+    </div>
+    <div class="main" id="top">
+        <div class="top-left">
+            <h1 style="color: rgb(104, 87, 249);" class="headings">Welcome to Expense Manager</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam impedit, reiciendis exercitationem
+                facilis
+                molestiae saepe rerum facere dignissimos assumenda commodi dicta dolore deleniti repellendus quam earum
+                nemo
+                quidem unde sapiente.</p>
+            <p style="color: rgb(104, 87, 249); margin-top: 10px;">People Say that money is not everything in life but
+                money is
+                the most of it!!!</p>
+        </div>
+        <div class="top-right">
+            <img src="./images/undraw_wallet_aym5.png" alt="">
+        </div>
+    </div>
+    <div class="dash">
+        <a href="#container" id="dash">Move To Dashboard</a>
+    </div>
+    <div class="dashboard" id="container">
+        <div class="container">
+            <p style="color: white;">manage here!!!</p>
+            <input type="text" id='type' placeholder="Enter the mode of payment" class="inputs">
+            <input type="number" id='Expense' placeholder="Enter your Expense" class="inputs">
+            <input type="text" name="desc" id="desc" placeholder="Enter the Description" class="inputs">
+            <button id="submit">Submit</button>
+        </div>
+        <div class="display">
+            <table class="display-items">
+                <tr>
+                    <th>Mode</th>
+                    <th>Expense</th>
+                    <th>Description</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <!-- <td>Cash</td>
+                    <td>$200</td>
+                    <td>Monthly Food Items</td>
+                    <td><button class="delete"><img src="./images/close.png" alt="" style="width: 20px;"></button></td> -->
+                </tr>
+            </table>
+        </div>
+        <div class="total">
+            <!-- <h1 id="total"></h1> -->
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="left-about">
+            <h2 class="headings">About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, excepturi perferendis maiores
+                facere
+                illo aspernatur necessitatibus deserunt dolorum molestias, aliquam ab, accusantium exercitationem
+                nostrum.
+                Culpa eius distinctio nulla veritatis rerum eveniet cum dolorem quos error magni, provident praesentium
+                debitis quia quae illum itaque velit sequi non. Quas cumque sint praesentium rem voluptatum, est quasi
+                animi, hic deleniti labore quis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus excepturi fugit minima sint
+                harum autem. Asperiores quas facere aliquam. Tempora, qui reiciendis? Reiciendis placeat accusantium
+                consequatur, molestiae aliquam excepturi.</p>
+        </div>
+        <img src="./images/undraw_personal_finance_tqcd.png" alt="">
+    </div>
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, laborum!</p>
+        <p>Made by Arun.89creator</p>
+        <p><a href="#top" style="text-decoration: none; color: rgb(104, 87, 249);">Move to Top</a></p>
+    </div>
+    <script src="./javascript/app.js"></script>
+    <script src="./javascript/resp.js"></script>
+</body>
+
+</html>
