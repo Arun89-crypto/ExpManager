@@ -1,4 +1,4 @@
-#Expense Manager
+# Expense Manager
 
 Expense manager is a javaScript application which is helpful for managing your Expanses.
 
@@ -10,10 +10,12 @@ Expense manager is a javaScript application which is helpful for managing your E
 
 ## Images
 
-![Screenshot1]('./images/ScreenShots/Screenshot1.png')
-![Screenshot2]('./images/ScreenShots/Screenshot2.png')
-![Screenshot3]('./images/ScreenShots/Screenshot3.png')
+![Screenshot1](./images/ScreenShots/Screenshot1.png)
+![Screenshot2](./images/ScreenShots/Screenshot2.png)
+![Screenshot3](./images/ScreenShots/Screenshot3.png)
 
 ## Weblink
 
-#### I don't own any of the images and logo used here!
+
+
+###### I don't own any of the images and logo used here!
